@@ -1,0 +1,336 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-sec{
+
+	background-color: #F6F9F9;
+	padding: 24px 0px;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+.banner{
+	
+	background: url(../image/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner-content{
+	
+	margin: 0px auto;
+	text-align: center;
+}
+.banner-content h1 {
+    color: #ffffff;
+    font-size: 100px;
+    padding-top: 290px;
+    font-weight: bold;
+}
+.underline{
+	border-bottom: 2px solid #15a4fa;
+	width: 100%;
+	padding-bottom: 33px;
+	display: block;
+	margin: auto;
+}
+.banner-content p {
+    color: #eeeeef;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+.btn {
+    color: #FDFDFD;
+    padding: 15px 20px;
+    border: 1px solid #15A4FA;
+    background: transparent;
+    border-radius: 2px;
+    margin-bottom: 26%;
+}
+.btn:hover{
+	background-color: #15A4FA;
+	color: #FDFDFD;
+	border-radius: 2px;
+}
+.fa.fa-angle-down {
+    display: block;
+    margin: auto;
+    padding: 85px;
+    color: #F6F6F7;
+    font-size: 27px;
+}
+.service{
+	width: 100%;
+	float: left;
+	background-color: #282923;
+}
+.service-one {
+    padding: 70px 0px;
+    display: block;
+    margin: auto;
+    width: 94%;
+}
+.service-one h2{
+	
+    color: #bfb5b5;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+.service-one p{
+
+    color: #6d6868;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+.icon{
+	width: 100%;
+	float: left;
+	background-color: #474748;
+	padding: 68px 0px;
+}
+.icon-part{
+	display: block;
+	margin: auto;
+}
+.icon-part h2{
+	
+	text-align: center;
+	padding: 20px 0px;
+    color: #bfb5b5;
+}
+.icon-part p{
+	font-size: 17px;
+	text-align: center;
+    color: #757171;
+	
+}
+.fa.fa-mobile {
+    display: block;
+    font-size: 37px;
+    background-color: #0083FD;
+    padding: 13px 26px;
+    color: white;
+    border-radius: 2px;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+}
+.fa.fa-paper-plane {
+    display: block;
+    font-size: 20px;
+    background-color: #0083FD;
+    padding: 22px 22px;
+    color: white;
+    border-radius: 2px;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+}
+.fa.fa-bullhorn {
+	display: block;
+    font-size: 20px;
+    background-color: #0083FD;
+    padding: 22px 22px;
+    color: white;
+    border-radius: 2px;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+}
+.pic{
+	width: 100%;
+	float: left;
+	background-color: #282923; 
+}
+.pic-text{
+	display: block;
+	margin: 20px auto;
+}
+.pic-text h2{
+	text-align: center;
+	color: #bfb5b5;
+	font-size: 40px;
+	padding: 20px 0px;
+
+}
+.pic-text p{
+	text-align: center;
+	color: #6D6868;
+	font-size: 20px;
+	padding-bottom: 20px;
+
+}
+.pic-one{
+	
+	padding-bottom: 30px;
+}
+.pic-two {
+	
+	margin-bottom: 70px;
+}
+.sign{
+	width: 100%;
+	float: left;
+	background: url(../image/road.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.overlap {
+    background-color: #0a1323cc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+}
+.sign-text{
+	display: block;
+	margin: 0px auto;
+}
+.sign-text h2{
+	text-align: center;
+	font-size: 30px;
+	color: #FFFFFF;
+	padding-top: 80px;
+	
+}
+.sign-text p{
+	text-align: center;
+	font-size: 15px;
+	color: #75787F;
+	padding-top: 20px;
+	margin-bottom: 60px;
+	
+}
+
+.sign-form-1{
+	margin-bottom: 170px;
+}
+.sign-input{
+	width: 80%;
+	padding: 20px 8px;
+	border-radius: 3px;
+	border:2px solid #75787F;
+	background-color: transparent;
+	display: block;
+	margin: auto;
+	margin-bottom: 16px;
+	color: white;
+}
+.sign-input:hover{
+	border-radius: 3px;
+	color: white;
+}
+.sign-input-one{
+	width: 80%;
+	padding: 40px 8px;
+	border-radius: 3px;
+	border:2px solid #75787F;
+	background-color: transparent;
+	display: block;
+	margin: auto;
+	margin-bottom: 16px;
+	color: white;
+}
+.sign-input-one:hover{
+	border-radius: 3px;
+	color: white;
+}
+.sign-form-one{
+	width: 50%;
+	float: left;
+
+}
+.sign-form-two{
+	width: 50%;
+	float: right;
+}
+input.sign-checkbox {
+   margin-left: 36px;
+    font-size: 24px;
+    margin-top: 18px;
+    float: left;
+}
+.check-text {
+    margin-top: 11px;
+    color: white;
+   
+    margin-left: 56px;
+}
+button.sign-btn {
+    float: right;
+    margin-right: 55px;
+    padding: 10px 38px;
+    border-radius: 3px;
+    border:2px solid #27CDF7;
+	background-color: transparent;
+	color: white;
+	
+    font-size: 17px;
+}
+button.sign-btn:hover{
+	border-radius: 3px;
+	border:2px solid #27CDF7;
+	background-color: #15A4FA;
+	color: black;
+}
+footer{
+	width: 100%;
+	float: left;
+	background-color: #F6F9F9;
+}
+.footer-one {
+    float: left;
+}
+.footer-one p{
+	margin-top: 28%;
+	color: #ACACAC;
+}
+.footer-two {
+    float: right;
+}
+.footer-two ul{
+	list-style: none;
+}
+.footer-two ul li{
+	display: inline-block;
+}
+.footer-two ul li a{
+	text-decoration: none;
+}
+.fa.fa-facebook {
+    background-color: #15A4FA;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 3px;
+    margin-top: 30px;
+   	margin-bottom: 30px;
+}
+.fa.fa-twitter{
+	background-color: #15A4FA;
+	color: white;
+	padding: 15px 18px;
+	border-radius: 3px;
+}
+.fa.fa-google-plus{
+	background-color: #15A4FA;
+	color: white;
+    padding: 15px 15px;
+	border-radius: 3px;
+}
+.fa.fa-linkedin{
+	background-color: #15A4FA;
+	color: white;
+	padding:15px 19px;
+	border-radius: 3px;
+}
